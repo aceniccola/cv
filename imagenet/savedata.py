@@ -20,4 +20,4 @@ def save_to_yolo_format(dataset, root_path):
         dataset[split].save_to_disk(split_path)
     return root_path
 
-save_to_yolo_format(ds, "")
+save_to_yolo_format(ds, "imagenet/data")
